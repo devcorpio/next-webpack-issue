@@ -3,8 +3,8 @@ const SentryPlugin = require('@sentry/webpack-plugin');
 
 module.exports = {
   // Webpack configuration
-  webpack: (config, { dev, buildId }) => {
-    if (!dev) {
+  webpack: (config, { dev, buildId, isServer }) => {
+    if (!dev && !isServer) {
       config.devtool = 'source-map'; // eslint-disable-line no-param-reassign
       config.plugins.push(new SentryPlugin({
         release: '1',
