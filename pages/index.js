@@ -1,5 +1,5 @@
 import Nav from '../components/Nav'
-
+patata;
 export default () => (
   <div>
     <Nav />
