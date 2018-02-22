@@ -1,5 +1,5 @@
 [auth]
-token=0bc3ae8e6e854967a351d73a1640bf4abbaf071e7d084581bdf492192c305f69
+token=5db8b43b556e40ceb487d5922e578142f792278d49e8406ea550cb660d4f0481
 [defaults]
-project=react
-org=coluccini
+project=webpack_sentry
+org=devcorpio
